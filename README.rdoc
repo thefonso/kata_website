@@ -1,0 +1,20 @@
+# This is a simple website Kata
+# It shows how to make simple form,
+# Create links to other pages and...
+# It also shows how to write a basic test TDD style
+#
+# Simple company website:
+# 
+# I want a company logo
+# 
+# I want a picture of the company building
+# 
+# I want text describing how awesome the company is
+# 
+# I want a simple website  (home, contact us,  about us)
+# 
+# I want a contact form for my visitors
+# 
+# The form should have a name, email, and comments field
+
+
