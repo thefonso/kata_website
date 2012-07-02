@@ -3,18 +3,54 @@
 # Create links to other pages and...
 # It also shows how to write a basic test TDD style
 #
-# Simple company website:
-# 
-# I want a company logo
-# 
-# I want a picture of the company building
-# 
-# I want text describing how awesome the company is
-# 
-# I want a simple website  (home, contact us,  about us)
-# 
-# I want a contact form for my visitors
-# 
-# The form should have a name, email, and comments field
+RSpec style...
+Part1
+Simple company website:
+
+it should display a company logo on each page
+it should show a picture of the company building on the front page
+it "should display text about the company on the front page"
+it "should have three pages"
+it "should have a name,email and comments field"
+
+
+Part2
+(create pending block)
+describe "simple company website" do
+    it should display a company logo on each page
+    it should show a picture of the company building on the front page
+    it "should display text about the company on the front page"
+    it "should have three pages"
+    it "should have a name,email and comments field"
+end
+
+
+part three
+replace the Pending code with working code
+
+describe "simple company website" do
+    it "should display a company logo on each page" do
+        "verify an element exist on each page named logo.jpg"
+    end
+
+    it "should show a picture of the company building on the front page" do
+        "verify an element exist on the front page named building.jpg"
+    end
+
+    it "should display text about the company on the front page" do
+        "verify a paragraph with id="description of company" text is on front page"
+    end
+
+    it "should have three pages" do
+        "code here verifies presence of pages"
+    end
+
+    it "should have a name,email and comments field" do
+        "code here verifies presence of each field"
+    end
+end
+
+
+
 
 
