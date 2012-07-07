@@ -1,4 +1,10 @@
 Formkata::Application.routes.draw do
+
+  # resources :static_pages
+  get "simple_website/home"
+  get "simple_website/about"
+  get "simple_website/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

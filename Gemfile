@@ -6,16 +6,13 @@ group :development do
   gem "webrat", ">= 0.7.2"
 end
 group :test do
-  gem "cucumber-rails", ">= 0.3.2" 
+  gem "cucumber-rails", "~> 1.0", require: false #use this or get goofy error
   gem "database_cleaner"
 end
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
 gem 'rails', '3.2.3'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 # commenting out this one for now
 # gem 'sqlite3'

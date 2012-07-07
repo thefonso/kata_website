@@ -158,7 +158,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  cucumber-rails (>= 0.3.2)
+  cucumber-rails (~> 1.0)
   database_cleaner
   jquery-rails
   rails (= 3.2.3)

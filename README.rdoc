@@ -8,13 +8,13 @@
 # and we will of with a pattern like so 
 #
 # Part1
-# Simple company website:
+# Simple website:
 # 
 # it should display a company logo on each page
 # it should show a picture of the company building on the front page
 # it "should display text about the company on the front page"
 # it "should have three pages, home, about, contact"
-# it "should have a name,email and comments field"
+# it "should have a name, email and comments field"
 # 
 # 
 # Part2
