@@ -19,6 +19,10 @@ describe "SimpleWebsite" do
         get simple_website_contact_path
         response.status.should be(200)
       end
+      xit "should contain a form" do
+        get 'simple_website/contact'
+        response.should have_selector("form")
+      end
     end
   end
 end
