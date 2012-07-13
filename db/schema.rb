@@ -13,4 +13,12 @@
 
 ActiveRecord::Schema.define(:version => 20120713161251) do
 
+  create_table "users", :force => true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.text     "comments"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
 end

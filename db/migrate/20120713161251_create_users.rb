@@ -1,6 +1,6 @@
-class CreateContactForms < ActiveRecord::Migration
+class CreateUsers < ActiveRecord::Migration
   def change
-    drop_table :contact_forms do |t|
+    create_table :users do |t|
       t.string :name
       t.string :email
       t.text :comments
