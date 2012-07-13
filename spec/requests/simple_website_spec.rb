@@ -19,28 +19,23 @@ describe "SimpleWebsite" do
         get simple_website_contact_path
         response.status.should be(200)
       end
-      describe "form" do
+      describe "form fields" do
         it "should contain a form tag" do
           get 'simple_website/contact'
           response.should have_selector("form")
-        end
-        it "should contain a name field, an email field and a comment field" do
+        end       
+        xit "should contain a name field, an email field and a comment field" do
           get 'simple_website/contact'
           response.should have_selector("input", :name => "firstname")
         end
-        it "should contain an email field" do
+        xit "should contain an email field" do
           get 'simple_website/contact'
           response.should have_selector("input", :name => "email")
         end
-        it "should contain and a comment field" do
+        xit "should contain and a comment field" do
           get 'simple_website/contact'
           response.should have_selector("textarea", :name => "comment")
         end
-      end
-      describe "form fields" do
-        xit "should have a name field" 
-        xit "should have an email field"
-        xit "should have a comments field"
       end
     end
   end
