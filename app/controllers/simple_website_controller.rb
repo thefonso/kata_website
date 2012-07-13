@@ -1,6 +1,4 @@
 class SimpleWebsiteController < ApplicationController
-  # GET /???
-  # GET /???.json
 
   def index
     respond_to do |format|
@@ -18,6 +16,9 @@ class SimpleWebsiteController < ApplicationController
     end
   end
   def contact
+    
+    # @contact_form = ContactForm.all
+    
     respond_to do |format|
       format.html # home.html.erb
     end

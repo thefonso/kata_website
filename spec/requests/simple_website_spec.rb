@@ -37,6 +37,11 @@ describe "SimpleWebsite" do
           response.should have_selector("textarea", :name => "comment")
         end
       end
+      describe "form fields" do
+        xit "should have a name field" 
+        xit "should have an email field"
+        xit "should have a comments field"
+      end
     end
   end
 end

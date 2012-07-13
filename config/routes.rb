@@ -4,6 +4,8 @@ Formkata::Application.routes.draw do
   get "simple_website/home"
   get "simple_website/about"
   get "simple_website/contact"
+  root :to => 'simple_website#home'
+  # root :to => 'simple_website/home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
