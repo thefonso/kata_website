@@ -1,23 +1,10 @@
-<<<<<<< HEAD
-<h1>Kosh Form</h1>
-=======
 <h1>Contact Us</h1>
->>>>>>> added a form and pending test for form fields
 <p>
   This is the contact page for the
   <a href="http://thefonso.com/">thefonso.com</a>
   sample application.
 </p>
 <p>
-<<<<<<< HEAD
-    <!-- This is where Kosh has created the form -->
-    <form id="koshform">
-        First name: <input type="text" name="firstname"/><BR>
-        Email:      <input type="text" name="email"/><BR>
-        Comment:    <textarea rows="20" cols="80" name="comment"></textarea><BR>
-    </form>
-    
-=======
     <!-- Now we need a form with a user model -->
     <!-- it "should have a name, email and comments field" -->
     <%= form_tag("/contact", :method => "get") do %>
@@ -37,6 +24,10 @@
         <%= submit_tag %>
       </div>
     <% end %>
+<<<<<<< Updated upstream
 
->>>>>>> added a form and pending test for form fields
+=======
+    <!-- it should post content to database  -->
+    <!-- TODO this is visitors/new -->
+>>>>>>> Stashed changes
 </p>

@@ -1,0 +1,8 @@
+<h1>Contact Us</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Back', visitors_path %>
+
+<!-- TODO make this the cantact.html.erb page -->
+

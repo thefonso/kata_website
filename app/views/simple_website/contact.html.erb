@@ -7,7 +7,7 @@
 <p>
     <!-- Now we need a form with a user model -->
     <!-- it "should have a name, email and comments field" -->
-    <%= form_tag("/contact", :method => "get") do %>
+    <%= form_tag("/simple_website/formresult", :method => "get") do %>
       <div class="field">
         <%= label_tag :name %><br />
         <%= text_field_tag :name %>
@@ -24,5 +24,6 @@
         <%= submit_tag %>
       </div>
     <% end %>
-
+    <!-- it should post content to database  -->
+    <!-- TODO this is visitors/new -->
 </p>
