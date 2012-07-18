@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # adding gems for starting RSpec and Cucumber fun
 group :development do
   gem "rspec-rails", ">= 2.10.0" 
-  gem "webrat", ">= 0.7.2" 
+  # gem "webrat", ">= 0.7.2" 
 end
 group :test do
   gem "cucumber-rails", "~> 1.0", require: false #use this or get goofy error

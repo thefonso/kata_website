@@ -20,7 +20,7 @@ describe "SimpleWebsite" do
       get 'simple_website/contact'
       response.should have_selector("form")
     end       
-    xit "should contain a name field" do
+    it "should contain a name field" do
       get 'simple_website/contact'
       response.should have_selector("input", :name => "firstname")
     end
