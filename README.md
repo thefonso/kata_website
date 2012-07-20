@@ -19,6 +19,11 @@ Then add this to your gemfile
 And run 'bundle install' at prompt:
     
     $bundle install
+    
+And finally...
+    
+    $rails generate rspec:install
+    
 
 Simple client website:
 
