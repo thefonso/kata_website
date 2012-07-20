@@ -92,4 +92,24 @@ Now we will begin building our app starting with thinking about each test in our
 Let the journey begin...
 
 
+#Resources:
+See the git cheat sheet in this repo.
+
+https://github.com/thefonso/class_website/blob/master/git_cheat_sheet.md
+
+https://github.com/thefonso/class_website/blob/master/git_cheat_sheet_workflow_multi.md
+
+https://github.com/thefonso/class_website/blob/master/git_cheat_sheet_workflow_single.md
+
+Also it's suggested that you keep the RSpec documentation on hand in a browser tab.
+
+http://rubydoc.info/gems/rspec-expectations
+
+http://rubydoc.info/gems/rspec-mocks/#Setting_Responses
+
+http://rubydoc.info/gems/rspec-core/#nested_groups
+
+http://rubydoc.info/gems/rspec-rails/frames
+
+
 
