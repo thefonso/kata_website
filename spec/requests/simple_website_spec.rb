@@ -22,15 +22,17 @@ describe "SimpleWebsite" do
     end       
     it "should contain a name field" do
       get 'simple_website/contact'
-      response.should have_selector("input", :name => "firstname")
+      response.should have_selector("input", :name => "name")
     end
-    xit "should contain an email field" do
+    it "should contain an email field" do
       get 'simple_website/contact'
       response.should have_selector("input", :name => "email")
     end
-    xit "should contain and a comment field" do
+    it "should contain and a comment field" do
       get 'simple_website/contact'
-      response.should have_selector("textarea", :name => "comment")
+      response.should have_selector("textarea", :name => "comments")
     end
+    xit "post to content database"
+    xit "emails site admin"
   end
 end
