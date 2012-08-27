@@ -33,6 +33,10 @@ describe "SimpleWebsite" do
       response.should have_selector("textarea", :name => "comments")
     end
     xit "post to content database"
-    xit "emails site admin"
+    it "emails site admin" do
+      mailer = mock
+      mailer.should_receive(:deliver)
+      UserMailer.should_receive(:signup).and_return(mailer)
+    end
   end
 end
