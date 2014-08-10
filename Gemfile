@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# set ruby version
+ruby '1.9.3'
+
 # adding gems for starting RSpec and Cucumber fun
 group :development do
   gem "rspec-rails", ">= 2.10.0" 
