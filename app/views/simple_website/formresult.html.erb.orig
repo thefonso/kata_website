@@ -1,8 +1,0 @@
-<h1>Form result</h1>
-<p>
-  This is the contact page form result
-</p>
-<p>
-    display database contents
-    <!-- TODO this is the same as visitors/index.html.erb -->
-</p>
