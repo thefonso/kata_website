@@ -1,8 +1,8 @@
 KataWebsite::Application.routes.draw do
   # resources :static_pages
-  get "simple_website/home"
-  get "simple_website/about"
-  get "simple_website/contact"
+  get "simple_website/home", as: :home
+  get "simple_website/about", as: :about
+  get "simple_website/contact", as: :contact
   
   root :to => 'simple_website#home'
   
