@@ -15,7 +15,7 @@ end
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
-gem 'rails', '3.2.3'
+gem 'rails', '3.2.17'
 
 
 # Gems used only for assets and not required
